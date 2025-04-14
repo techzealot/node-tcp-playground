@@ -1,7 +1,8 @@
 import * as net from 'net';
 
 const PORT = 8080;
-const HOST = '127.0.0.1'; // Server host
+const HOST = '127.0.0.1';
+//const HOST = '139.9.90.108';
 
 // Create a new TCP client socket
 const client = new net.Socket();
